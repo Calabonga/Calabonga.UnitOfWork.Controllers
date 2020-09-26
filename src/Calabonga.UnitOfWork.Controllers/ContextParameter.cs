@@ -15,12 +15,12 @@
             AssemblyName = value.GetType().Assembly.GetName().FullName;
         }
 
-        public string AssemblyName { get; set; }
+        public string AssemblyName { get; }
 
-        public string Name { get; set; }
+        public string Name { get; }
 
-        public string TypeName { get; set; }
+        public string TypeName { get; }
 
-        public object Value { get; set; }
+        public object Value { get; }
     }
 }

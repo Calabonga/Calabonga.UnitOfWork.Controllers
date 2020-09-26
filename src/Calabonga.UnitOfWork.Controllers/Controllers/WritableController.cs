@@ -9,7 +9,7 @@ using Calabonga.Microservices.Core.Exceptions;
 using Calabonga.Microservices.Core.Extensions;
 using Calabonga.Microservices.Core.QueryParams;
 using Calabonga.Microservices.Core.Validators;
-using Calabonga.OperationResultsCore;
+using Calabonga.OperationResults;
 using Calabonga.UnitOfWork.Controllers.Controllers.Base;
 using Calabonga.UnitOfWork.Controllers.Controllers.Base.CreateSteps;
 using Calabonga.UnitOfWork.Controllers.Controllers.Base.UpdateSteps;

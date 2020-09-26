@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Calabonga.EntityFrameworkCore.Entities.Base;
-using Calabonga.OperationResultsCore;
+using Calabonga.OperationResults;
 using Calabonga.UnitOfWork.Controllers.Exceptions;
 using Calabonga.UnitOfWork.Controllers.Helpers;
 

@@ -9,7 +9,7 @@ using Calabonga.Microservices.Core;
 using Calabonga.Microservices.Core.Exceptions;
 using Calabonga.Microservices.Core.QueryParams;
 using Calabonga.Microservices.Core.Validators;
-using Calabonga.OperationResultsCore;
+using Calabonga.OperationResults;
 using Calabonga.PredicatesBuilder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Query;

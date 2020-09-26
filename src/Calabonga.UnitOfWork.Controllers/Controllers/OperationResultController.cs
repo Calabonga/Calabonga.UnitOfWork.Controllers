@@ -1,5 +1,5 @@
 ﻿using System;
-using Calabonga.OperationResultsCore;
+using Calabonga.OperationResults;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
