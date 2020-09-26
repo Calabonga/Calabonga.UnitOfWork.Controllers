@@ -11,7 +11,7 @@
     <PackageIcon>logo.png</PackageIcon>
     <PackageIconUrl>http://www.calabonga.net/images/logo.png</PackageIconUrl>
     <PackageTags>Calabonga EntityFrameworkCore UnitOfWork Repository Extenstion Helper unitofowrk entityframework pagination</PackageTags>
-    <PackageReleaseNotes>Commit fixed</PackageReleaseNotes>
+    <PackageReleaseNotes>first commit after moving to own repository</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <FileVersion>1.2.0.0</FileVersion>
