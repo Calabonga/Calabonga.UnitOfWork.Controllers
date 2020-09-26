@@ -4,6 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calabonga.UnitOfWork.Controllers", "Calabonga.UnitOfWork.Controllers\Calabonga.UnitOfWork.Controllers.csproj", "{CFD2E358-2BBD-4C2D-A9BC-3163A62313A3}"
+EndProject
 
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
