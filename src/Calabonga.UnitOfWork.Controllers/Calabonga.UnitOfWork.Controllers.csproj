@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+    <Version>1.2.0</Version>
+    <Authors>Calabonga</Authors>
+    <Company>Calabonga SOFT</Company>
+    <Description>Unit of Work implementation over ASP.NET Core Controllers</Description>
+    <Copyright>Calabonga</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageIconUrl>http://www.calabonga.net/images/logo.png</PackageIconUrl>
+    <PackageTags>Calabonga EntityFrameworkCore UnitOfWork Repository Extenstion Helper unitofowrk entityframework pagination</PackageTags>
+    <PackageReleaseNotes>Commit fixed</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
+    <PackageReference Include="Calabonga.EntityFrameworkCore.Entities.Base" Version="2.1.0" />
+    <PackageReference Include="Calabonga.Microservices.Web.Core" Version="2.0.2" />
+    <PackageReference Include="Calabonga.PredicatesBuilder" Version="1.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="OperationResultCore" Version="2.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Calabonga.UnitOfWork" Version="1.0.6" />
+  </ItemGroup>
+
+</Project>
