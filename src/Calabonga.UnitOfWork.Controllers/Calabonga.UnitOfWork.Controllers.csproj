@@ -2,19 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Version>1.2.2</Version>
+    <Version>1.2.3</Version>
     <Authors>Calabonga</Authors>
     <Company>Calabonga SOFT</Company>
     <Description>Unit of Work implementation over ASP.NET Core Controllers</Description>
     <Copyright>Calabonga</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>logo.png</PackageIcon>
-    <PackageIconUrl>http://www.calabonga.net/images/logo.png</PackageIconUrl>
+    <PackageIconUrl></PackageIconUrl>
     <PackageTags>Calabonga EntityFrameworkCore UnitOfWork Repository Extenstion Helper unitofowrk entityframework pagination</PackageTags>
-    <PackageReleaseNotes>first commit after moving to own repository</PackageReleaseNotes>
+    <PackageReleaseNotes>nuget-packages updated, dependencies reduced</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>1.2.2.0</AssemblyVersion>
-    <FileVersion>1.2.2.0</FileVersion>
+    <AssemblyVersion>1.2.3.0</AssemblyVersion>
+    <FileVersion>1.2.3.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
