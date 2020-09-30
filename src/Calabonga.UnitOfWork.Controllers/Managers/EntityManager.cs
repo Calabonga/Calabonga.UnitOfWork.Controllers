@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Calabonga.EntityFrameworkCore.Entities.Base;
 using Calabonga.Microservices.Core.Validators;
-using Calabonga.Microservices.Web.Core;
 using Calabonga.UnitOfWork.Controllers.Controllers.Base;
 using Calabonga.UnitOfWork.Controllers.Factories;
 
