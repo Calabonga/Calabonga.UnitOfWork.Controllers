@@ -31,8 +31,14 @@ namespace Calabonga.UnitOfWork.Controllers.Managers
             CurrentMapper = mapper;
             ViewModelFactory = viewModelFactory;
             Validator = validator;
-            Principal = UserIdentity.Instance.User;
+            Principal = GetIdentityInternal();
         }
+
+        /// <summary>
+        /// Set up user identity
+        /// </summary>
+        /// <returns></returns>
+        protected abstract IIdentity GetIdentity();
 
         /// <summary>
         /// Current manager name
@@ -142,5 +148,10 @@ namespace Calabonga.UnitOfWork.Controllers.Managers
         }
 
         #endregion
+
+        private IIdentity GetIdentityInternal()
+        {
+            return GetIdentity();
+        }
     }
 }
