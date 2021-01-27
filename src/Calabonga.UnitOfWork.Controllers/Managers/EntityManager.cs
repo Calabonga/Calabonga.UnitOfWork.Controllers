@@ -46,7 +46,7 @@ namespace Calabonga.UnitOfWork.Controllers.Managers
         public virtual string Name => GetType().Name;
 
         /// <inheritdoc />
-        public IIdentity Principal { get; }
+        public IIdentity? Principal { get; }
 
         /// <summary>
         /// <see cref="IMapper"/> instance for current manager
