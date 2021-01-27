@@ -38,7 +38,7 @@ namespace Calabonga.UnitOfWork.Controllers.Managers
         /// Set up user identity
         /// </summary>
         /// <returns></returns>
-        protected abstract IIdentity GetIdentity();
+        protected abstract IIdentity? GetIdentity();
 
         /// <summary>
         /// Current manager name
@@ -149,7 +149,7 @@ namespace Calabonga.UnitOfWork.Controllers.Managers
 
         #endregion
 
-        private IIdentity GetIdentityInternal()
+        private IIdentity? GetIdentityInternal()
         {
             return GetIdentity();
         }

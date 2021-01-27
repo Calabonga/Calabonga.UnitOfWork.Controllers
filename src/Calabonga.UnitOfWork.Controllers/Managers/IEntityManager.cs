@@ -37,7 +37,7 @@ namespace Calabonga.UnitOfWork.Controllers.Managers
         /// <summary>
         /// User from request
         /// </summary>
-        IIdentity Principal { get; }
+        IIdentity? Principal { get; }
 
         /// <summary>
         /// <see cref="IMapper"/> instance for current manager
