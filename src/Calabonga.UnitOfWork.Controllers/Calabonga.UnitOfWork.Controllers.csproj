@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
-    <Version>3.0.1</Version>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+    <Version>3.0.2</Version>
     <Authors>Calabonga</Authors>
     <Company>Calabonga SOFT</Company>
     <Description>Unit of Work implementation over ASP.NET Core Controllers</Description>
@@ -11,20 +11,20 @@
     <PackageIcon>logo.png</PackageIcon>
     <PackageIconUrl></PackageIconUrl>
     <PackageTags>Calabonga EntityFrameworkCore UnitOfWork Repository Extenstion Helper unitofowrk entityframework pagination</PackageTags>
-    <PackageReleaseNotes>Migrated to NET5.0</PackageReleaseNotes>
+    <PackageReleaseNotes>nugets dependency updated after migrated to NET5.0</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>3.0.0.0</AssemblyVersion>
-    <FileVersion>3.0.0.0</FileVersion>
+    <AssemblyVersion>3.0.2.0</AssemblyVersion>
+    <FileVersion>3.0.2.0</FileVersion>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="Calabonga.Microservices.Core" Version="3.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.2" />
     <PackageReference Include="Calabonga.EntityFrameworkCore.Entities.Base" Version="3.0.0" />
-    <PackageReference Include="Calabonga.PredicatesBuilder" Version="1.0.3" />
+    <PackageReference Include="Calabonga.PredicatesBuilder" Version="2.0.0" />
     <PackageReference Include="OperationResultCore" Version="3.0.0" />
   </ItemGroup>
 
@@ -36,7 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Calabonga.UnitOfWork" Version="1.0.7" />
+    <PackageReference Include="Calabonga.UnitOfWork" Version="2.0.0" />
   </ItemGroup>
 
 </Project>
