@@ -1,6 +1,5 @@
 ﻿using System;
 using Calabonga.OperationResults;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Calabonga.UnitOfWork.Controllers.Controllers
@@ -8,8 +7,6 @@ namespace Calabonga.UnitOfWork.Controllers.Controllers
     /// <summary>
     /// Base controller for PricePoint wrapped with OperationResult
     /// </summary>
-    [ApiController]
-    [EnableCors("CorsPolicy")]
     public abstract class OperationResultController : Controller
     {
         #region fields
